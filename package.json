@@ -4,6 +4,7 @@
   "decription": "",
   "homepage": "https://v-cazeau.github.io/tribute",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gh": "^2.0.9",
+    "gh": "^1.13.9",
     "gh-pages": "^5.0.0"
   },
   "description": ""
