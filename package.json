@@ -11,8 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh": "^2.0.9",
     "gh-pages": "^5.0.0"
   },
-  "devDependencies": {},
   "description": ""
 }
