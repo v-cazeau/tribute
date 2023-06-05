@@ -1,0 +1,122 @@
+[debug] [2023-04-14T21:20:12.686Z] ----------------------------------------------------------------------
+[debug] [2023-04-14T21:20:12.686Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2023-04-14T21:20:12.687Z] CLI Version:   11.25.2
+[debug] [2023-04-14T21:20:12.687Z] Platform:      darwin
+[debug] [2023-04-14T21:20:12.687Z] Node Version:  v18.15.0
+[debug] [2023-04-14T21:20:12.691Z] Time:          Fri Apr 14 2023 17:20:12 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-04-14T21:20:12.691Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-14T21:20:12.694Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-14T21:20:12.694Z] > authorizing via signed-in user (veronie.cazeau@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/veroniecazeau/code/html/tribute
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-04-14T21:20:34.660Z] > refreshing access token with scopes: []
+[debug] [2023-04-14T21:20:34.663Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-14T21:20:34.663Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-14T21:20:35.159Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-04-14T21:20:35.159Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-14T21:20:35.175Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-04-14T21:20:35.175Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"tribute","name":"y"}
+[debug] [2023-04-14T21:20:35.616Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2023-04-14T21:20:35.616Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [display_name] has issue [project display name must be at least 4 characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"display_name","description":"project display name must be at least 4 characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2023-04-14T21:20:35.620Z] FirebaseError: HTTP Error: 400, field [display_name] has issue [project display name must be at least 4 characters]
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2023-04-14T21:20:56.970Z] ----------------------------------------------------------------------
+[debug] [2023-04-14T21:20:56.971Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2023-04-14T21:20:56.971Z] CLI Version:   11.25.2
+[debug] [2023-04-14T21:20:56.971Z] Platform:      darwin
+[debug] [2023-04-14T21:20:56.971Z] Node Version:  v18.15.0
+[debug] [2023-04-14T21:20:56.972Z] Time:          Fri Apr 14 2023 17:20:56 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-04-14T21:20:56.972Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-14T21:20:56.975Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-14T21:20:56.975Z] > authorizing via signed-in user (veronie.cazeau@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/veroniecazeau/code/html/tribute
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-04-14T21:21:04.085Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-04-14T21:21:04.085Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"tribute","name":"tribute"}
+[debug] [2023-04-14T21:21:04.659Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2023-04-14T21:21:04.659Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2023-04-14T21:21:04.662Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID tribute. Please try again with a unique project ID.
+[debug] [2023-04-14T21:21:32.019Z] ----------------------------------------------------------------------
+[debug] [2023-04-14T21:21:32.020Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2023-04-14T21:21:32.020Z] CLI Version:   11.25.2
+[debug] [2023-04-14T21:21:32.020Z] Platform:      darwin
+[debug] [2023-04-14T21:21:32.021Z] Node Version:  v18.15.0
+[debug] [2023-04-14T21:21:32.022Z] Time:          Fri Apr 14 2023 17:21:32 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-04-14T21:21:32.022Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-14T21:21:32.025Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-14T21:21:32.025Z] > authorizing via signed-in user (veronie.cazeau@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/veroniecazeau/code/html/tribute
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-04-14T21:21:45.108Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-04-14T21:21:45.109Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"tribute ","name":"tribute "}
+[debug] [2023-04-14T21:21:45.368Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2023-04-14T21:21:45.368Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2023-04-14T21:21:45.370Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
